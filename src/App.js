@@ -8,6 +8,7 @@ import Loading from './Components/Loading';
 
 
 
+
 function App() {
   const [loading, setLoading] = React.useState(true)
   window.addEventListener('load', ()=>{
@@ -21,7 +22,7 @@ function App() {
         <Menu/>
         <NewsBlock/>
         <MediaSect/>
-    </div>
+      </div>
     </>
   );
 }
