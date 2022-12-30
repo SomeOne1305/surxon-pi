@@ -60,7 +60,7 @@ export default function MediaSect() {
           <div className={style.image} style={{display:vidSource === "" ? "block": "none"}}>
             <img src={source} alt="" />
           </div>
-          <video src={vidSource} controls width={"100%"} height={"100%"} style={{display:vidSource !== "" ? "block" :"none"}}></video>
+          <video src={vidSource} controls width={"90%"} height={"90%"} style={{display:vidSource !== "" ? "block" :"none"}}></video>
         </div>
         <div className={style.quit} onClick={()=>videoPause()}>
           <i className="fa-regular fa-xmark"></i>
