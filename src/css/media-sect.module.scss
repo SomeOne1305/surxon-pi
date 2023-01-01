@@ -162,3 +162,25 @@ i{
         width:100%;
     }
 }
+
+@media (max-width:1024px){
+    .video{
+        height: auto;
+    }
+}
+@media (max-width:992px){
+    
+}
+@media (max-width:768px){
+    
+}
+@media (max-width:576px){
+    .medias{
+        display: grid;
+        grid-template-columns: 100% !important;
+        row-gap: 5px;
+    }
+    .video{
+        grid-column: 100%;
+    }
+}

@@ -4,6 +4,7 @@ import Navigation from './Components/Navigation';
 import Menu from './Components/Menu'
 import NewsBlock from './Components/News/NewsBlock';
 import MediaSect from './Components/Videos/MediaSect';
+import Footer from './Components/Footer';
 // import Loading from './Components/Loading';
 
 
@@ -22,6 +23,7 @@ function App() {
         <Menu/>
         <NewsBlock/>
         <MediaSect/>
+        <Footer/>
       </div>
     </>
   );
