@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import style  from '../css/footer.module.scss'
 import logo from '../images/logo.png'
 
-const Footer = () => {
-    return (
+export default function Footer(){
+    return(
         <footer>
             <div className={style.container}>
                 <div className={style.footer_block}>
@@ -48,5 +48,3 @@ const Footer = () => {
         </footer>
     )
 }
-
-export default Footer
