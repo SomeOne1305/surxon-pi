@@ -398,3 +398,8 @@ nav {
         margin:0 auto !important;
     }
 }
+@media (max-width:300px) {
+    .call_number{
+        width: 100% !important;
+    }
+}
