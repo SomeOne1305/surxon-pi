@@ -36,6 +36,28 @@ nav {
     background-color: #373634;
 }
 
+.beta_mode{
+    width: 100%;
+    background-color: #2B3A55;
+}
+.beta_mode_cont{
+    width: 100%;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.beta_mode_cont > div{
+    font-size: 18px;
+    color: #fff;
+    transform: translateX(100%);
+    animation: lining 10s linear infinite;
+}
+
+@keyframes lining {
+    0%{
+        transform: translateX(-40%);
+    }
+}
 .navbar_top>.container {
     display: flex;
     align-items: center;

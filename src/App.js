@@ -6,6 +6,7 @@ import NewsBlock from './Components/News/NewsBlock';
 import MediaSect from './Components/Videos/MediaSect';
 import Footer from './Components/Footer';
 import Wheater from './Components/Wheater';
+import CalAndPoll from './Components/CalAndPoll';
 // import Loading from './Components/Loading';
 
 
@@ -25,6 +26,7 @@ function App() {
         <NewsBlock/>
         <MediaSect/>
         <Wheater/>
+        <CalAndPoll/>
         <Footer/>
       </div>
     </>

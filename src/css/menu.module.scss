@@ -106,7 +106,7 @@
 
                                     svg {
                                         transform: translateX(-20px);
-                                        opacity: .3;
+                                        opacity: .5;
                                         transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
                                     }
 
@@ -131,23 +131,27 @@
                                                 padding: 8px 12px;
                                                 display: flex;
                                                 align-items: center;
+                                                justify-content: flex-start;
                                                 span {
                                                     white-space: nowrap;
-                                                    transition: .2s linear;
                                                 }
                                                 span::before{
-                                                    content: "\F138";
-                                                    font-size: 12px;
-                                                    margin: 0 5px 0 0;
+                                                    content: "";
+                                                    display: inline-block;
+                                                    width: 10px;
+                                                    height: 2px;
+                                                    margin:0 5px 3px 0;
+                                                    background-color: #ffffff;
+                                                    transition: 0.2s linear;
                                                 }
 
+                                            }
+                                            .inner_route:hover span::before{
+                                                width: 18px;
                                             }
 
                                             .inner_route:hover {
                                                 background-color: #377cc2;
-                                            }
-                                            .inner_route:hover span{
-                                                transform: translateX(10px);
                                             }
                                         }
                                     }

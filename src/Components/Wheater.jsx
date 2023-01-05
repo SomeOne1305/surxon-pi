@@ -14,7 +14,7 @@ export default function Wheater() {
     }, []);
     return (
         <>
-            <a class="weatherwidget-io" href="https://forecast7.com/ru/37d8267d60/kumkurgon/" data-label_1="КУМКУРГАН" data-label_2="Погода" data-icons="Climacons Animated" data-theme="original" data-basecolor="#144272" >КУМКУРГАН Погода</a>
+            <a className="weatherwidget-io" href="https://forecast7.com/ru/37d8267d60/kumkurgon/" data-label_1="КУМКУРГАН" data-label_2="Погода" data-icons="Climacons Animated" data-theme="original" data-basecolor="#144272" >КУМКУРГАН Погода</a>
         </>
     )
 }

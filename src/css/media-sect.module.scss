@@ -1,9 +1,11 @@
 .media_section{
     width: 100%;
     height: auto;
-    background-image: url(https://wallpapercave.com/wp/wp7902094.jpg);
-    background-size: contain;
-    background-position: center;
+    background-image: url(../images/bg.jpg); //https://wallpapercave.com/wp/wp7902094.jpg
+    background-size: 100% cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
 }
 @mixin center(){
     display: flex;

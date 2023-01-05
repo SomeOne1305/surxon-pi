@@ -47,9 +47,11 @@ footer{
 
 .community_name{
     font-size: 22px;
-    color: rgb(70, 41, 176);
+    color: #ffffff;
 }
-
+.source_url{
+    text-decoration: underline;
+}
 .location_of_com{
     width: 100%;
     display: flex;
